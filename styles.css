@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeee4;
+}
+
+/* Header Styles */
+header {
+    background: #2ea4c8;
+    color:#21130d;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    padding: 25px;
+    margin: 10px;
+    background:#eeeee4;
+    border-radius: 5px;
+}
+
+/* Social Media Links */
+#social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social-media ul li {
+    margin: 10px 0;
+}
+
+#social-media ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #2ea4c8;
+    color: #eeeee4;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+ /*Responsive Styles*/
+@media (max-width: 600px) {
+    section {
+        margin: 5px;
+    }
+}
